@@ -4,7 +4,6 @@
     android:thickness="0dp" >
 
     <solid android:color="@color/transparent_bg"/>
-
     <corners android:radius="5dp" />
 
 </shape>
