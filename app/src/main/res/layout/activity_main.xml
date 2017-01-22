@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/animation_list"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="36dp"
+        android:textSize="13sp"
+        android:textColor="@color/grey_white_1000"
+        android:paddingStart="10dp"
+        android:maxLines="1"
+        android:hint="@string/username_hint"
+        android:textColorHint="@color/grey_300"
+        android:background="@drawable/edittext_theme"
+        />
+
+
+        <EditText
+            android:id="@+id/password"
+            android:inputType="textPassword"
+            android:layout_below="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="5dp"
+            android:textSize="13sp"
+            android:textColor="@color/grey_white_1000"
+            android:paddingStart="10dp"
+            android:maxLines="1"
+            android:hint="@string/password_hint"
+            android:textColorHint="@color/grey_300"
+            android:background="@drawable/edittext_theme"
+            />
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/password"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:text="@string/login"
+            android:textColor="@color/grey_300"
+            android:background="@drawable/button_theme"
+
+            />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
