@@ -5,15 +5,13 @@
         android:duration="10000" />
     <item
         android:drawable="@drawable/venice"
-        android:duration="10000" />
+        android:duration="5000" />
     <item
         android:drawable="@drawable/love_and_liberty"
         android:duration="10000" />
-
     <item
         android:drawable="@drawable/can_you_feel_the_love_tonight"
         android:duration="10000" />
-
     <item
         android:drawable="@drawable/honey_dew"
         android:duration="10000" />
