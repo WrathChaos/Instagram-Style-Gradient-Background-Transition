@@ -1,4 +1,4 @@
-# GradientBackground_Instagram_Style
+# Instagram Style Gradient Background Transition
 Instagram Style Animated Gradient Background Login Screen
 
 
